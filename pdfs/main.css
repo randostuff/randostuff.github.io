@@ -1,0 +1,37 @@
+/* Since the PDFs program isn't open source, I at least want the css and javascript to be open source. */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+footer {
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+} 
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  padding: 1em;
+  color: white;
+  background-color: #007196;
+  clear: left;
+  text-align: center;
+}
+
+nav {
+  float: right;
+  max-width: 163px;
+  padding: 1em;
+  border: solid #333
+}
+
+.navleft {
+  float: left !important;
+}
+
+body {
+  margin: 0px;
+}
